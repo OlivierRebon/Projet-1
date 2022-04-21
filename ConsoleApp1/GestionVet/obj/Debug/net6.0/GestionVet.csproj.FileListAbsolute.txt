@@ -1,0 +1,15 @@
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\bin\Debug\net6.0\GestionVet.exe
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\bin\Debug\net6.0\GestionVet.deps.json
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\bin\Debug\net6.0\GestionVet.runtimeconfig.json
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\bin\Debug\net6.0\GestionVet.dll
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\bin\Debug\net6.0\GestionVet.pdb
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.csproj.AssemblyReference.cache
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.AssemblyInfoInputs.cache
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.AssemblyInfo.cs
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.csproj.CoreCompileInputs.cache
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.dll
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\refint\GestionVet.dll
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.pdb
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\GestionVet.genruntimeconfig.cache
+C:\Dev\Back-end\D-ProjetIntégration\ConsoleApp1\GestionVet\obj\Debug\net6.0\ref\GestionVet.dll
