@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Back-end\\D-ProjetIntégration\\ConsoleApp1\\GestionVet\\GestionVet.csproj",
+      "projectUniqueName": "C:\\Dev\\Back-end\\C-ApplicationNative\\E-Projets\\Projet-0\\ConsoleApp1\\GestionVet\\GestionVet.csproj",
       "projectName": "GestionVet",
-      "projectPath": "C:\\Dev\\Back-end\\D-ProjetIntégration\\ConsoleApp1\\GestionVet\\GestionVet.csproj",
+      "projectPath": "C:\\Dev\\Back-end\\C-ApplicationNative\\E-Projets\\Projet-0\\ConsoleApp1\\GestionVet\\GestionVet.csproj",
       "packagesPath": "C:\\Users\\Olivier\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Back-end\\D-ProjetIntégration\\ConsoleApp1\\GestionVet\\obj\\",
+      "outputPath": "C:\\Dev\\Back-end\\C-ApplicationNative\\E-Projets\\Projet-0\\ConsoleApp1\\GestionVet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Olivier\\AppData\\Roaming\\NuGet\\NuGet.Config",
