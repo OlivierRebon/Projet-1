@@ -12,6 +12,7 @@ class Program
     }
     void GestionVet()
     {
+   
         string ligne = new string('-', 70);
         string choix;
         bool afficheMenu = true;
@@ -71,50 +72,63 @@ class Program
     {
         Console.Clear();
 
-        for (int i = 0; i < 10; i++)
+        if (ListePleine())
         {
-            if (data[i, 0] == null)
-            {
-                data[i, 0] = (Convert.ToString(i));
-
-                Console.WriteLine("Veuillez saisir le type d'animal: ");
-                data[i, 1] = Console.ReadLine();
-                Console.WriteLine("Veuillez saisir le nom de l'animal: ");
-                data[i, 2] = Console.ReadLine();
-                Console.WriteLine("Veuillez saisir l'âge de l'animal: ");
-                data[i, 3] = Console.ReadLine();
-                Console.WriteLine("Veuillez saisir le poids de l'animal: ");
-                data[i, 4] = Console.ReadLine();
-                Console.WriteLine("Veuillez saisir la couleur de l'animal.");
-                string coul = Console.ReadLine();
-                if (coul == "rouge")
-                {
-                    data[i, 5] = "rouge";
-                }
-                else if (coul == "bleu")
-                {
-                    data[i, 5] = "bleu";
-                }
-                else if (coul == "violet")
-                {
-                    data[i, 5] = "violet";
-                }
-                else
-                {
-                    Console.WriteLine("Vous pouvez seulement entrer rouge, bleu ou violet");
-                    Console.ReadKey();
-                    continue;
-                }
-
-                Console.WriteLine("Veuillez saisir le nom du propriétaire de l'animal: ");
-                data[i, 6] = Console.ReadLine();
-                break;
-            }
-
+            Console.Clear();
+            Console.WriteLine("La liste est pleine");
+            Console.ReadKey();
         }
-        return;
+        else
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if (data[i, 0] == null)
+                {
+                    data[i, 0] = (Convert.ToString(i)+1);
+
+                    Console.WriteLine("Veuillez saisir le type d'animal: ");
+                    data[i, 1] = Console.ReadLine();
+                    Console.WriteLine("Veuillez saisir le nom de l'animal: ");
+                    data[i, 2] = Console.ReadLine();
+                    Console.WriteLine("Veuillez saisir l'âge de l'animal: ");
+                    data[i, 3] = Console.ReadLine();
+                    Console.WriteLine("Veuillez saisir le poids de l'animal: ");
+                    data[i, 4] = Console.ReadLine();
+                    string couleurChoisie;
+                    do
+                    {
+                        Console.WriteLine("Veuillez saisir la couleur de l'animal. Bleu, rouge ou violet.");
+                        couleurChoisie = Console.ReadLine();
+                        
+                    }   while (couleurChoisie != "rouge" && couleurChoisie != "bleu" && couleurChoisie != "violet");
+                    data[i, 5] = couleurChoisie;
+
+                    Console.WriteLine("Veuillez saisir le nom du propriétaire de l'animal: ");
+                    data[i, 6] = Console.ReadLine();
+                    break;
+                }
+
+            }
+        }
     }
 
+    bool ListePleine()
+    {
+        bool isplein = false;
+        int compte = 0;
+        for (int i = 0; i < data.GetLength(0); i++)
+        {
+            if (data[i, 0] != null)
+            {
+                compte++;
+            }
+        }
+        if (compte < 10)
+        {
+            isplein = false;
+        }
+        return(isplein);
+    }
 
     void ListerAni()
     {
